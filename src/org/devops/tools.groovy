@@ -1,5 +1,5 @@
 package org.devops
 
-def PrintMsg() {
+def PrintMsg(context) {
   println(context)
 }

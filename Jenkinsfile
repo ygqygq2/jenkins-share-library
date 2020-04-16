@@ -9,8 +9,10 @@ pipeline {
   stages {
     stage('Example') {
       steps {
-        tools.PrintMes("This is my lib")
+        script {
+          tools.PrintMsg("This is my lib")
         }
       }
-   }
+    }
+  }
 }

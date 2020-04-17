@@ -1,6 +1,7 @@
 @Library('jenkins-share-library')
 
-def tools = new org.devops.tools()
+def tools
+tools = new org.devops.tools()
 
 pipeline {
 
@@ -10,7 +11,7 @@ pipeline {
     stage('Example') {
       steps {
         script {
-          tools.PrintMsg("This is my lib")
+          tools.colorPrint("red","This is my lib")
         }
       }
     }

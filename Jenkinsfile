@@ -1,4 +1,4 @@
 #!groovy
-@Library('jenkins-share-library')
+library 'jenkins-share-library'
 
 runPipeline()

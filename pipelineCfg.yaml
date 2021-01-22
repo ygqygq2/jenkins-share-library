@@ -1,2 +1,3 @@
-type: python
+lang: python
+type: test
 node: master

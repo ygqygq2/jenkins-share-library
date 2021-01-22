@@ -1,5 +1,5 @@
 def call(String type,Map map) {
-  if (type == "test") {
+  if (type == "python") {
     pipeline {
       agent {
         node {

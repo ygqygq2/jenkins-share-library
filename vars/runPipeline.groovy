@@ -6,8 +6,9 @@ def call() {
     }
 
     def cfg = pipelineCfg()
-    switch(cfg.lang) {
+    switch(cfg.type) {
       case "python": 
+        println "python"
         pythonPipeline(cfg)
         break
       case "nodejs":
